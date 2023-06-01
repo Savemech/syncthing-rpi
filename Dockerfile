@@ -1,7 +1,7 @@
 FROM alpine
 
 
-ENV SYNCTHING_VERSION=1.23.4
+ENV SYNCTHING_VERSION=1.23.5
 
 
 RUN apk upgrade --no-cache && \
