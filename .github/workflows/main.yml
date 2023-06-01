@@ -2,11 +2,12 @@ name: Build Docker Image
 
 on:
   push:
+    # Trigger the workflow on any branch or tag
     branches:
-      - main
+      - '*'
+    tags:
+      - '*'
   pull_request:
-    branches:
-      - main
 
 jobs:
   build:
